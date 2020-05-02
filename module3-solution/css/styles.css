@@ -6,22 +6,44 @@ body {
   margin: 0;
   padding: 0;
 }
-h1.navbar-brand {
-	margin: 25px 0 30px 30px;
+.navbar-header {
+	background-color: gray;
+	margin-left: 0;
+}
+.navbar-brand {
+	margin: 25px 0 30px 30px !important;
   	padding: 0;
   	clear: both;
   	font-size: 35px;
   	height: auto;
   	font-weight: bold;
+  	color: black !important;
     }
+   .navbar-toggle.collapsed {
+   	color: black !important;
+   	border-color: black !important;
+   }
+   .collapsed .icon-bar {
+   	color: black !important;
+   	background-color: black !important;
+   }
+   .icon-bar {
+   	background-color: #ddd !important;
+   }
+
+   .navbar-nav {
+	margin-left: 0 !important;
+}
+
 header {
-	background: gray;
+	background-color: gray;
 }
 
 h2 {
 	text-align: center;
 	font-weight: bold;
 	clear: both;
+	margin-bottom: 45px;
 }
 
 h3 {
@@ -35,4 +57,9 @@ h3 {
 	background-color: gray;
 	margin: 20px 15px 20px 15px;
 	padding: 10px 20px;
+}
+
+.container {
+	margin-left: 0;
+	padding-left: 0;
 }
